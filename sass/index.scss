@@ -1,0 +1,49 @@
+//@import "../node_modules/reset-css/reset.css";
+$link-color: #93b5b3;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$fa-font-path: "../assets/webfonts";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
+.vipho-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vipho-container {
+    padding: 16px;
+    flex-shrink: 1;
+}
+.vipho {
+    width: 512px;
+    max-width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+
+    img {
+        width: 100%;
+    }
+}
+.links {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-inline-start: 0;
+}
+.links__link {
+    margin: 16px;
+    color: #c8dad3;
+    font-size: 32px;
+    line-height: normal;
+    padding: 0;
+
+    &:hover {
+        color: #93b5b3;
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "vipho.io",
+    "description": "",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "gulp",
+        "sass": "gulp sass"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vipho/vipho.io.git"
+    },
+    "bugs": "https://github.com/vipho/vipho.io/issues",
+    "devDependencies": {
+        "@tryghost/release-utils": "0.3.3",
+        "autoprefixer": "9.7.1",
+        "beeper": "2.0.0",
+        "cssnano": "4.1.10",
+        "gscan": "3.2.1",
+        "gulp": "4.0.2",
+        "gulp-concat": "2.6.1",
+        "gulp-livereload": "4.0.2",
+        "gulp-postcss": "8.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "3.0.2",
+        "gulp-zip": "5.0.1",
+        "node-sass": "^4.13.0",
+        "postcss-color-function": "4.1.0",
+        "postcss-custom-properties": "9.0.2",
+        "postcss-easy-import": "3.0.0",
+        "pump": "3.0.0"
+    },
+    "browserslist": [
+        "defaults"
+    ],
+    "config": {
+        "posts_per_page": 25,
+        "image_sizes": {
+            "xxs": {
+                "width": 30
+            },
+            "xs": {
+                "width": 100
+            },
+            "s": {
+                "width": 300
+            },
+            "m": {
+                "width": 600
+            },
+            "l": {
+                "width": 1000
+            },
+            "xl": {
+                "width": 2000
+            }
+        }
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.12.0",
+        "bootstrap": "^4.4.1",
+        "reset-css": "^5.0.1"
+    }
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VIPHO / Vladimir Musikhin</title>
+    <meta name="description" content="Web developer"/>
+    <link rel="stylesheet" href="dist/index.css">
+</head>
+<body>
+<div class="vipho-wrapper">
+    <div class="vipho-container">
+        <div class="vipho">
+            <img src="assets/VIPHO.svg" alt="VIPHO / Vladimir Musikhin">
+        </div>
+        <div class="links">
+            <div class="dropdown">
+                <button class="btn btn-link links__link" data-toggle="dropdown"><i class="fab fa-instagram"></i></button>
+                <div class="p-3 dropdown-menu">
+                    <p>
+                        <a href="https://instagram.com/viphodev/" target="_blank">https://instagram.com/viphodev</a>
+                    </p>
+                    <a href="instagram://viphodev" class="btn btn-info">Go to client</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-link links__link" data-toggle="dropdown"><i class="fab fa-telegram-plane"></i></button>
+                <div class="p-3 dropdown-menu">
+                    <p>
+                        <a href="https://t.me/viphodev" target="_blank">https://t.me/viphodev</a>
+                    </p>
+                    <a href="tg://viphodev" class="btn btn-info">Go to client</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-link links__link" data-toggle="dropdown"><i class="fab fa-twitter"></i></button>
+                <div class="p-3 dropdown-menu">
+                    <p>
+                        <a href="https://twitter.com/viphodev" target="_blank">https://twitter.com/viphodev</a>
+                    </p>
+                    <a href="twitter://viphodev" class="btn btn-info">Go to client</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-link links__link" data-toggle="dropdown"><i class="far fa-envelope"></i></button>
+                <div class="p-3 dropdown-menu">
+                    <p>
+                        hey@vipho.io
+                    </p>
+                    <a href="mailto:hey@vipho.io" class="btn btn-info">Go to client</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+    $('.links .dropdown-menu').on('click', function (e) {
+        e.stopPropagation();
+    });
+</script>
+</body>
+</html>
