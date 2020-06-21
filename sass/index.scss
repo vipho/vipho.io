@@ -17,15 +17,16 @@ $fa-font-path: "../assets/webfonts";
     align-items: center;
 }
 .vipho-container {
+    width: 100%;
     padding: 16px;
     flex-shrink: 1;
-    overflow: hidden;
 }
 .vipho {
     width: 512px;
     max-width: 100%;
     padding: 16px;
     box-sizing: border-box;
+    margin: 0 auto;
 
     img {
         width: 100%;
